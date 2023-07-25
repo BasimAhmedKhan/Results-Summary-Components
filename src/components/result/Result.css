@@ -1,0 +1,32 @@
+.resultContainer{
+    height: 32rem;
+    width: 24rem;
+    color: white;
+    background: linear-gradient(180deg, hsl(253, 99%, 63%), hsl(243, 80%, 54%));
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultContainer>*{
+    margin: 0rem 2.5rem 2rem 2.5rem;
+}
+
+.resultCircle{
+    height: 13rem;
+    width: 13rem;
+    flex-direction: column;
+    border-radius: 50%;
+    background: linear-gradient(180deg, hsla(239, 71%, 46%, 1), hsla(241, 45%, 35%, 0));
+}
+
+.obtainedMarks{
+    font-size: 4.5rem;
+}
+
+.result{
+    font-size: 1.2rem;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}

@@ -1,0 +1,24 @@
+.summaryContainer{
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: 0rem 2rem;
+}
+
+.summaryContainer>*{
+    margin-bottom: 1.5rem;
+}
+
+.btn{
+    height: 3.5rem;
+    width: 20rem;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: linear-gradient(to bottom, hsl(253, 99%, 63%), hsl(243, 80%, 54%));
+}
